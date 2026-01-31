@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - AI University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code" style="color: var(--primary-color);"></i>
+                م/ علي حيدر
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="index.html#levels" class="nav-link">المواد</a></li>
+                <li><a href="about.html" class="nav-link">حول</a></li>
+                <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <header class="hero" style="min-height: 350px;">
+        <div class="container hero-content animate-fade-up">
+            <h1 class="hero-title">تواصل معنا</h1>
+            <p class="hero-subtitle">لديك استفسار أو اقتراح؟ نحن هنا للاستماع إليك.</p>
+        </div>
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f8fafc" fill-opacity="1"
+                    d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,106.7C672,117,768,171,864,176C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <main class="container" style="padding-bottom: 4rem; margin-top: -50px; position: relative; z-index: 10;">
+
+        <div class="card animate-fade-up delay-100"
+            style="max-width: 800px; margin: 0 auto; backdrop-filter: none; background: white;">
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <h2 class="section-title">نموذج الاتصال <i class="fa-regular fa-envelope"
+                        style="color: var(--primary-color);"></i></h2>
+                <p style="color: var(--text-light);">يسعدنا تواصلك معنا عبر النموذج أدناه وسنقوم بالرد في أقرب وقت.</p>
+            </div>
+
+            <form class="contact-form"
+                onsubmit="event.preventDefault(); alert('تم إرسال رسالتك بنجاح! شكراً لتواصلك معنا.'); this.reset();">
+                <div class="form-group">
+                    <input type="text" id="name" class="form-control" placeholder=" " required>
+                    <label for="name" class="form-label">الاسم الكامل</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" class="form-control" placeholder=" " required>
+                    <label for="email" class="form-label">البريد الإلكتروني</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" class="form-control" rows="5" placeholder=" " required></textarea>
+                    <label for="message" class="form-label">اكتب رسالتك هنا...</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary"
+                    style="width: 100%; display: flex; justify-content: center; align-items: center; gap: 0.5rem;">
+                    إرسال الرسالة <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+
+            <div
+                style="margin-top: 2rem; border-top: 1px solid #e2e8f0; padding-top: 1.5rem; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem;">
+                <div style="text-align: center;">
+                    <i class="fa-solid fa-phone"
+                        style="color: var(--accent-color); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                    <p dir="ltr" style="font-weight: 600;">+966 50 000 0000</p>
+                </div>
+                <div style="text-align: center;">
+                    <i class="fa-solid fa-location-dot"
+                        style="color: var(--accent-color); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                    <p style="font-weight: 600;">الرياض، المملكة العربية السعودية</p>
+                </div>
+                <div style="text-align: center;">
+                    <i class="fa-solid fa-at"
+                        style="color: var(--accent-color); font-size: 1.2rem; margin-bottom: 0.5rem;"></i>
+                    <p style="font-weight: 600;">contact@ai-university.com</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>AI University</h3>
+            <p>جميع الحقوق محفوظة © 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

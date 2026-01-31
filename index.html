@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning - المرحلة التأسيسية</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code" style="color: var(--primary-color);"></i>
+                م/ علي حيدر
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="#levels" class="nav-link">المواد</a></li>
+                <li><a href="about.html" class="nav-link">حول</a></li>
+                <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content animate-fade-up">
+            <div class="level-badges">
+                <span class="badge active">جامعة الحضارة</span>
+                <span class="badge">تقنية المعلومات</span>
+            </div>
+            <h1 class="hero-title">تخصص تقنية المعلومات</h1>
+            <p class="hero-subtitle">الموقع الرسمي للمقررات الدراسية - بإعداد م/ علي حيدر</p>
+            <a href="#content" class="btn btn-outline" style="color: white; border-color: white;">تصفح المواد</a>
+        </div>
+
+        <!-- Curved Shape Divider -->
+        <div class="hero-shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f8fafc" fill-opacity="1"
+                    d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container main-wrapper" id="content">
+
+        <!-- Main Content Area -->
+        <section class="content-area">
+            <div class="card welcome-section animate-fade-up delay-100">
+                <h2 class="welcome-title">أهلاً بك في المرحلة التأسيسية <i class="fa-solid fa-rocket"
+                        style="color: var(--accent-color);"></i></h2>
+                <p class="welcome-text">هنا تبدأ رحلتك في عالم الذكاء الاصطناعي. اختر المقررات من القائمة الجانبية للبدء
+                    في تصفح المحتوى التعليمي المصمم خصيصاً لك.</p>
+                <div style="margin-top: 2rem;">
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/online-education-3428186-2882103.png"
+                        alt="Education" style="max-width: 300px; width: 100%;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar animate-fade-up delay-200">
+            <div class="card">
+                <h3 class="sidebar-title">
+                    <i class="fa-solid fa-layer-group"></i>
+                    مقررات المستوى الأول
+                </h3>
+
+                <div class="course-list">
+                    <div class="course-item btn" onclick="alert('سيتم فتح المقرر قريباً')">
+                        <div class="course-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <div class="course-info">
+                            <h4>مقدمة في الحاسوب</h4>
+                            <span>الترم الأول</span>
+                        </div>
+                    </div>
+
+                    <div class="course-item btn" onclick="alert('سيتم فتح المقرر قريباً')">
+                        <div class="course-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="course-info">
+                            <h4>برمجة الحاسوب (1)</h4>
+                            <span>C++ / Python</span>
+                        </div>
+                    </div>
+
+                    <div class="course-item btn" onclick="alert('سيتم فتح المقرر قريباً')">
+                        <div class="course-icon"><i class="fa-solid fa-calculator"></i></div>
+                        <div class="course-info">
+                            <h4>الرياضيات (1)</h4>
+                            <span>التفاضل والتكامل</span>
+                        </div>
+                    </div>
+
+                    <div class="course-item btn" onclick="alert('سيتم فتح المقرر قريباً')">
+                        <div class="course-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="course-info">
+                            <h4>مهارات الحاسبة (1)</h4>
+                            <span>أساسيات الهاردوير</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>م/ علي حيدر - IT</h3>
+            <p>جميع الحقوق محفوظة - جامعة الحضارة © 2026</p>
+            <div style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: center;">
+                <a href="#" style="color: white; font-size: 1.5rem;"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" style="color: white; font-size: 1.5rem;"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" style="color: white; font-size: 1.5rem;"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
